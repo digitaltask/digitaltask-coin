@@ -5,9 +5,9 @@ a) From a MSYS type:
 
 		cd /c/
 
-		git clone https://github.com/Tillkoeln/Spacecash
+		git clone https://github.com/digitaltask/digitaltask-coin
 
-		cd /c/Spacecash/src/leveldb
+		cd /c/digitaltask-coin/src/leveldb
 
 		TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
 
@@ -15,7 +15,7 @@ a) From a MSYS type:
 
 Now... for the graphical wallet... and we're going to go really fast because you're a f'in pro now.
 
-4. Compiling Qt 5.2.0 libraries and Spacecash-Qt 
+4. Compiling Qt 5.2.0 libraries and Digital-Task-Qt 
 --------------
 4.1 Download and unpack Qt base and tools sources:
 
@@ -49,15 +49,15 @@ g) Type:
 
 	mingw32-make
 
-5. Compiling the Spacecash-Qt client
+5. Compiling the Digital-Task-Qt client
 --------------
 
 
 5.1 In the command prompt type:
 
-	cd\Spacecash
+	cd digitaltask-coin
 
-	qmake Spacecash-qt.pro
+	qmake Digital-Task-qt.pro
 
 	mingw32-make -f Makefile.Release
 
